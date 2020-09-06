@@ -1,0 +1,32 @@
+ZEN CLASS DAY 1 TASKS
+
+Task 1:
+
+HTTPS 1.1 Vs. HTTPS 2.0
+
+HTTP/1.1 has been around for more than a decade. With Google’s SPDY leading the way in 2015, the IETF (Internet Engineering Task Force) gave us HTTP/2,
+which introduces several features to reduce page load times.
+
+HTTP/2 achieves faster webpage loading without performance optimizations that require extensive human efforts in terms of development.It significantly
+reduces the complexities that had crept into HTTP/1.1 and gives us a robust protocol which, though not without its flaws,perhaps stand the test of time.
+Before making this leap forward, let’s trace our steps back to when the internet was in its infancy to understand how the different versions evolved into
+the current form.
+
+Task 2:
+
+5 differences between Browser JS(console) & Nodejs
+
+1)In browsers, the top-level scope is the global scope. That means that in browsers if you're in the global scope var something will define a global variable.
+In Node this is different. The top-level scope is not the global scope; var something inside a Node module will be local to that module.
+
+2)Node.js allows you control the environment. Unless you are building an open source application that anyone can deploy anywhere, you know which version of
+Node you will run the application on. Compared to the browser environment, where you don’t get the luxury to choose what browser your visitors will use, this
+is very convenient.This means that you can write all the modern ES6-7-8-9 JavaScript that your Node version supports.
+
+3)In the browser, most of the time what you are doing is interacting with the DOM, or other Web Platform APIs like Cookies. Those do not exist in Node, of course.
+You don’t have the document, window and all the other objects that are provided by the browser.
+
+4)In the browser, we don’t have all the nice APIs that Node.js provides through its modules, like the filesystem access functionality.Node uses the Common JS module
+system, while in the browser we are starting to see the ES Modules standard being implemented.
+
+5)Node uses the Common JS module system, while in the browser we are starting to see the ES Modules standard being implemented.
