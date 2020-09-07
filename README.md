@@ -26,13 +26,13 @@ from ppt 001 - DataTypes
 ------------------------------------------------------------------
 Task 5)Use typeof in all the datatypes and check the result
 
-typeof(1)
-typeof(1.1)
-typeof("1.1")
-typeof(true)
-typeof(null)
-typeof(undefined)
-typeof([])
-typeof({})
+typeof(1);
+typeof(1.1);
+typeof("1.1");
+typeof(true);
+typeof(null);
+typeof(undefined);
+typeof([]);
+typeof({});
 
 Task 6)Write a blog about objects and its internal representation in Javascript
