@@ -8,7 +8,7 @@ Task 2)List 5 difference between Browser JS(console) v Nodejs
 =>JSONserver – fake server with POST // self assignment
 https://www.youtube.com/watch?v=-4r0W7TtVTY 
 =>Host JSON server in Heroku –// self assignment
- https://github.com/reach2arunprakash/json-server-heroku
+https://github.com/reach2arunprakash/json-server-heroku
 
 from ppt 000a - HTML Basics
 
