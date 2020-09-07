@@ -1,4 +1,5 @@
 Day 1 tasks list
+------------------------------------------------------------------
 
 from ppt 000 - Browsers Internals-Getting started
 
