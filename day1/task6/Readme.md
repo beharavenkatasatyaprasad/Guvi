@@ -1,7 +1,7 @@
 BLOG Writing 
 ------------------------------------------------------
 
-blog about objects and its internal representation in Javascript.
+blog addressing "objects and its internal representation in Javascript".
 
 I hosted is as an article in LinkedIn:
 
