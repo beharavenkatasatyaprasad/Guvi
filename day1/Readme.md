@@ -4,7 +4,6 @@ Day 1 tasks list
 from ppt 000 - Browsers Internals-Getting started
 ------------------------------------------------------------------
 1)Difference between HTTP1.1 vs 2
-https://www.youtube.com/watch?v=SmE4OwHztCc
 
 2)List 5 difference between Browser JS(console) v Nodejs
 
