@@ -1,0 +1,7 @@
+Why Objects are copied & compared by reference ?
+
+Objects are assigned and copied by reference. In other words, a variable stores not the “object value”, 
+but a “reference” (address in memory)for the value. So copying such a variable or passing it as a function
+argument copies that reference, not the object.
+
+All operations via copied references (like adding/removing properties) are performed on the same single object.
