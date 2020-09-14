@@ -1,3 +1,12 @@
+/*Write a function which takes 2 params
+
+1.Operation
+
+2.Function array
+
+Based on the params do the operation*/
+
+
 function process(a,b) {
     //this function returns the desired operation of 2 parameters to the user
 	var val1 = 200, val2= 800;
