@@ -1,8 +1,6 @@
 3a.ProgramsUsingAnynomousFunctions
 --------------------------------------------------------
 
-Do the below programs in anonymous function & IIFE
-
 1.Print odd numbers in an array 
 
 2.Convert all the strings to title caps in a string array
