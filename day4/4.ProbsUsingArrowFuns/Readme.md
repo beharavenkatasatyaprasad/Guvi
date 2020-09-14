@@ -1,10 +1,6 @@
 4.ProbsUsingArrowFuns
 --------------------------------------------------------
-Watch the Array methods 
 
-https://www.youtube.com/watch?v=R8rmfD9Y5-c
-
-Do the below programs in arrow functions
 
 1.Print odd numbers in an array 
 
