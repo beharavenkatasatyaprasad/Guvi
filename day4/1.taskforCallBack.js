@@ -42,5 +42,5 @@ var oper3 = process(opers,3);
     console.log(oper1,oper2,oper3);
 /*output:
 1000 -600 160000
-*?
+*/
 
