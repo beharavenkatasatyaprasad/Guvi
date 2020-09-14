@@ -11,3 +11,5 @@
 4.Return all the prime numbers in an array
 
 5.Return all the palindromes in an array 
+
+and I also included some practice task codes in this (ie from 6 - 8)
