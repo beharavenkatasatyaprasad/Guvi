@@ -1,0 +1,106 @@
+.header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: brown;
+    color: white;
+  }
+
+table#demotable {
+    
+    width: 100% ;
+    border-collapse: collapse ;
+    border: 1px black solid ;
+ 
+  }
+  td.empty {
+    width: 2% ;
+    border: 1px black solid ;
+    
+  }
+  td.content{
+    width:98% ;
+    border: 1px black solid ;
+  
+  }
+
+  table#demotable1 {
+    
+    width: 100% ;
+    border-collapse: collapse ;
+    border: 1px black solid ;
+
+  }
+
+  td.empty1 {
+    width: 2% ;
+    border: 1px black solid ;
+    
+  }
+  td.content1{
+    width:49% ;
+    border: 1px black solid ;
+  
+  }
+  td.content2{
+    width:49% ;
+    border: 1px black solid ;
+  
+  }
+  body{
+      font-family: Arial;
+      background-color: #FFFFDD;
+      font-size: 80%;
+  }
+  table#demotable3 {
+    
+    width: 100% ;
+    border-collapse: collapse ;
+    border: 1px black solid ;
+
+  }
+
+  td.empty3 {
+    width: 2.15% ;
+    border: 1px black solid ;
+    
+  }
+td.content3{
+    width:49% ;
+    border: 1px black solid ;
+}
+td.content3a{
+    width:24% ;
+    border: 1px black solid ;
+}
+td.content3b{
+    width:27% ;
+    border: 1px black solid ;
+}
+td.merge{
+    border: 1px black solid ;
+}
+select#dec1{
+    width : 23%;
+    text-align: center;
+}
+select#dec2a{
+    width : 93%;
+    text-align: center;
+}
+select#dec2b{
+    width : 75%;
+    text-align: center;
+}
+select#dec2c{
+    width : 85%;
+    text-align: center;
+}
+
+
+span.bluetext{
+  color: blue;
+}
