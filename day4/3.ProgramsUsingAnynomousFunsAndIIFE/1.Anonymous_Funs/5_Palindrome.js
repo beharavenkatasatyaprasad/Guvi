@@ -5,6 +5,7 @@ var palindrome = function (array) {
 function ChangeArrToStr(array){
 	//This function will parse all elements in array to Strings and push them into a new array
     var strarr = [];//new array
+	var c = "";
     for(var i=0;i<array.length;i++){
         if(isNaN(array[i])){
             //if the element is a string do nothing
@@ -12,7 +13,7 @@ function ChangeArrToStr(array){
         }
     else{
         //if the element is not string change it into a string and store in variable c
-        var c = "";
+        
         c = c + array[i];
        
     }
