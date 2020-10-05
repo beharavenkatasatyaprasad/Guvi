@@ -1,13 +1,13 @@
 /*
 Problem:Convert all the strings to title caps in a string array
 */
-var TitleCaps = function(array) { 
-       var titlecaps=[];
-    for(var i=0;i<array.length;i++){
-        var tot = array[i].split("")
+var TCaps = function(arr) { 
+       var tcaps=[];
+    for(var m=0;m<arr.length;m++){
+        var tot = arr[m].split("")
         var cap = tot[0].toUpperCase();
-        var Capitalized = Tojoin(tot,cap);
-        titlecaps.push(Capitalized);
+        var Capital = Tojoin(tot,cap);
+        tcaps.push(Capital);
         
     }
         function Tojoin(tot,cap){
@@ -23,7 +23,7 @@ var TitleCaps = function(array) {
     return titlecaps;
 }
 var array = ["satya","prasad","behara"]
-console.log(TitleCaps(array));
+console.log(TCaps(array));
 
 /*output : 
 [ 'Satya', 'Prasad', 'Behara' ]
