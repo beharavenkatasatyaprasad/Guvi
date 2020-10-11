@@ -45,18 +45,18 @@ setTimeout(() => {
                                                 counter.classList.add("col-md-12")
                                                 counter.classList.remove("offset-md-4")
                                             }, 1000);
-                                        }, 1000);
-                                    }, 1000);    
-                                }, 1000
+                                        }, 1001);
+                                    }, 1002);    
+                                }, 1003
                                 );
-                            }, 1000);
-                        }, 1000);
-                    }, 1000);
-                }, 1000);
-            }, 1000);
-        }, 1000);
-    }, 1000);
-}, 1000);
+                            }, 1004);
+                        }, 1005);
+                    }, 1006);
+                }, 1007);
+            }, 1008);
+        }, 1009);
+    }, 1010);
+}, 1011);
 
 counter.appendChild(message)
 row.appendChild(counter)
