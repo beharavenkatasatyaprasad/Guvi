@@ -35,9 +35,7 @@ function isPalindrome(n)
             c++;
         }
     }
-	let rev.length = reverselength;
-	let split_ele.length = splitlength;
-    if(c == reverselength && c == splitlength){
+    if(c == rev.length && c == split_ele.length){
         return true;
     }else{
         return false;
