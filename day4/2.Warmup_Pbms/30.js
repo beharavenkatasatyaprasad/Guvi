@@ -6,7 +6,7 @@ function getPrimes(nPrimes, startAt){
  var i = startAt;
  let n = 0;
  while(n < nPrimes) {
- if (isPrime(i)) {
+ if (NumisPrime(i)) {
  console.log(n, "→" , i);
  n++;
  }
@@ -14,15 +14,15 @@ function getPrimes(nPrimes, startAt){
  }
 }
 
-function isPrime(n){// Returns true if a number is prime   
-  if (n===1){
+function NumisPrime(k){// Returns true if a number is prime   
+  if (k==1){
     return false;
   }
-  else if(n === 2){
+  else if(k == 2){
     return true;
   }else{
-    for(let x = 2; x < n; x++){
-      if(n % x === 0){
+    for(let x = 2; x < k; x++){
+      if(k % x === 0){
         return false;
       }
     }
