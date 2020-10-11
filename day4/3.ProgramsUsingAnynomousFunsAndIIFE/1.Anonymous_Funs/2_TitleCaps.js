@@ -26,5 +26,5 @@ var array = ["junnu","munna","nani"]
 console.log(TCaps(array));
 
 /*o/p : 
-[ 'Satya', 'Prasad', 'Behara' ]
+[ 'Junnu', 'Munna', 'Nani' ]
 */
