@@ -22,9 +22,9 @@ var TCaps = function(arr) {
         }
     return titlecaps;
 }
-var array = ["satya","prasad","behara"]
+var array = ["junnu","munna","nani"]
 console.log(TCaps(array));
 
-/*output : 
+/*o/p : 
 [ 'Satya', 'Prasad', 'Behara' ]
 */
