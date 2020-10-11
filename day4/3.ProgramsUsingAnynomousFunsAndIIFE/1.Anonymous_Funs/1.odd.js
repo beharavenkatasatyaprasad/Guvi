@@ -1,7 +1,7 @@
 /*
 Problem:Print odd numbers in an array 
 */
-lat PrintOdd = function(array) { 
+let PrintOdd = function(array) { 
     try{
 		if(typeof(array)!=='object') throw "Input is not an array"
 		else console.log(oddArray(array));
