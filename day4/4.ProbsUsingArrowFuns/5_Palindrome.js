@@ -5,14 +5,16 @@ var palindrome = (array) => {
 function ChangeArrToStr(array){
 	//This function will parse all elements in array to Strings and push them into a new array
     var strarr = [];//new array
+    var c = "";
+	//if the element is not string change it into a string and store in variable c
+        
     for(var i=0;i<array.length;i++){
         if(isNaN(array[i])){
             //if the element is a string do nothing
-            c = array[i]
+            c = array[i];
         }
     else{
-        //if the element is not string change it into a string and store in variable c
-        var c = "";
+        
         c = c + array[i];
        
     }
@@ -33,7 +35,7 @@ function isPalindrome(n)
         //this function will reverse the splited array
         var revarr = [];
         for(var i=split_element.length-1;i>=0;i--){
-            revarr.push(split_element[i])
+            revarr.push(split_element[i]);
         }
         return revarr;
     }
