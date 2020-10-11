@@ -29,13 +29,15 @@ function isPalindrome(n)
         }
         return revarr;
     }
-    let count = 0;
-    for(let k=0;k<rev.length;k++){
-        if(rev[k] === split_ele[k]){
-            count++;
+    let c = 0;
+    for(let w=0;w<rev.length;w++){
+        if(rev[w] === split_ele[w]){
+            c++;
         }
     }
-    if(count == rev.length && count == split_ele.length){
+	let rev.length = reverselength;
+	let split_ele.length = splitlength;
+    if(c == reverselength && c == splitlength){
         return true;
     }else{
         return false;
