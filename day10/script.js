@@ -132,72 +132,54 @@ window.onload=function(){
         if (event.keyCode === 48) {
             event.preventDefault();
             document.getElementById("zero").click();
-        }
-        if (event.keyCode === 49) {
+        }if (event.keyCode === 49) {
             event.preventDefault();
             document.getElementById("one").click();
-        }
-        if (event.keyCode === 50) {
+        }if (event.keyCode === 50) {
             event.preventDefault();
             document.getElementById("two").click();
-        }
-        if (event.keyCode === 51) {
+        }if (event.keyCode === 51) {
             event.preventDefault();
             document.getElementById("three").click();
-        }
-        if (event.keyCode === 52) {
+        }if (event.keyCode === 52) {
             event.preventDefault();
             document.getElementById("four").click();
-        }
-        if (event.keyCode === 53) {
+        }if (event.keyCode === 53) {
             event.preventDefault();
             document.getElementById("five").click();
-        }
-        if (event.keyCode === 54) {
+        }  if (event.keyCode === 54) {
             event.preventDefault();
             document.getElementById("six").click();
-        }
-        if (event.keyCode === 55) {
+        }  if (event.keyCode === 55) {
             event.preventDefault();
             document.getElementById("seven").click();
-        }
-        if(event.keyCode === 56) {
+        }   if(event.keyCode === 56) {
             event.preventDefault();
             document.getElementById("eight").click();   
-        }
-        if(event.keyCode === 57) {
+        }   if(event.keyCode === 57) {
             event.preventDefault();
             document.getElementById("nine").click();   
-        }
-        if (event.keyCode === 190) {
+        }  if (event.keyCode === 190) {
             event.preventDefault();
             document.getElementById("n_dot").click();
-        }
-        if (event.keyCode === 191) {
+        }   if (event.keyCode === 191) {
             event.preventDefault();
             document.getElementById("n_div").click();
-        }
-        if (event.keyCode === 106) {
+        }   if (event.keyCode === 106) {
             event.preventDefault();
             document.getElementById("n_mul").click();
-        }
-        if (event.keyCode === 187) {
+        }   if (event.keyCode === 187) {
             event.preventDefault();
             document.getElementById("n_add").click();
-        }
-        if (event.keyCode === 189) {
+        }   if (event.keyCode === 189) {
             event.preventDefault();
             document.getElementById("n_sub").click();
-        }
-        if (event.keyCode === 8) {
+        }  if (event.keyCode === 8) {
             event.preventDefault();
             document.getElementById("n_back").click();
-        }
-        if (event.keyCode === 13) {
+        }   if (event.keyCode === 13) {
             event.preventDefault();
-            document.getElementById("n_eval").click();
-        }
-    });
+            document.getElementById("n_eval").click();}});
     let backspace = document.getElementById("n_back")
     let evaluation = document.getElementById("n_eval")
     let clear = document.getElementById("n_ce")
