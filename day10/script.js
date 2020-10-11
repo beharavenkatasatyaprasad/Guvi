@@ -126,8 +126,7 @@ let n_eval = numberCreate("=", "btn-outline-info", "n_eval")
 
 col_6.append(n_ce, n_back, n_eval)
 
-window.onload=function(){
-    var input = document.getElementById("type-area");
+window.onload=function(){var input = document.getElementById("type-area");
     document.addEventListener("keydown", function(event) {
         if (event.keyCode === 48) {
             event.preventDefault();
