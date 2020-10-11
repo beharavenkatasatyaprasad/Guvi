@@ -2,27 +2,27 @@
 Problem:Convert all the strings to title caps in a string array
 */
 var TCaps = function(arr) { 
-       var tcaps=[];
-    for(var m=0;m<arr.length;m++){
-        var tot = arr[m].split("")
-        var cap = tot[0].toUpperCase();
-        var Capital = Tojoin(tot,cap);
+       let tcaps=[];
+    for(let m=0;m<arr.length;m++){
+        let tot = arr[m].split("")
+        let cap = tot[0].toUpperCase();
+        let Capital = jointhem(tot,cap);
         tcaps.push(Capital);
         
     }
-        function Tojoin(tot,cap){
-			//This function joins the Title letter with rest of the letters in a string
-            var a=""
-            var join="";
-            for(var i=1;i<tot.length;i++){
-                a=a+tot[i]+""
+	//This function joins the Title letter with rest of the letters in a string
+        function jointhem(tot,cap){
+            let tmp=""
+            let joined="";
+            for(let i=1;i<tot.length;i++){
+                tmp=tmp+tot[i]+""
             }
-            join=cap+a;
-            return join;
+            joined=cap+a;
+            return joined;
         }
     return titlecaps;
 }
-var array = ["junnu","munna","nani"]
+let array = ["junnu","munna","nani"]
 console.log(TCaps(array));
 
 /*o/p : 
