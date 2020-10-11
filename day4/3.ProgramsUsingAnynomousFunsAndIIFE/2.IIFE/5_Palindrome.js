@@ -5,23 +5,17 @@ Return all the palindromes in an array
 (function (array) { 
 function ChangeArrToStr(array){
 	//This function will parse all elements in array to Strings and push them into a new array
-    var strarr = [];//new array
-    var c = "";
+    var strarr = []; var z = "";
     for(var i=0;i<array.length;i++){
         if(isNaN(array[i])){
             //if the element is a string do nothing
-            c = array[i];
+            z = array[i];
         }
-    else{
-        //if the element is not string change it into a string and store in variable c
-        
-        c = c + array[i];
-       
+    else{//if the element is not string change it into a string and store in variable c
+        z = z + array[i];
     }
-    strarr.push(c);//push parsed thing into new array
-        
+    strarr.push(z);//push parsed thing into new array
     }
-    
    return (strarr);//return the newarray
 }
 var strarray = ChangeArrToStr(array);//parsedarray is stored in strarray
