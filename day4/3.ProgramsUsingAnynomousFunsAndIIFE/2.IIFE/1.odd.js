@@ -7,7 +7,7 @@ Problem:Print odd numbers in an array
         if(array[i]%2!=0){
             try{
 				console.log(array[i]);
-			}catch(err)
+			}catch(err){
 			console.log("Error Occured");
             }
         }
