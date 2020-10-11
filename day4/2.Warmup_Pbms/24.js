@@ -8,10 +8,7 @@ undefined
 
 */
 
-var obj = {
- name: "satya"
- ,age :20
-};
+var obj = { name:"satya",age :20};
 function removeProperty(obj, key){
 delete obj[key];
  console.log(obj);
