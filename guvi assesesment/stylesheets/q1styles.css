@@ -1,0 +1,223 @@
+
+body{
+    margin: 0 auto;
+    background-color:whitesmoke;
+}
+
+.main-menu{
+    background-color: teal;
+    letter-spacing: 1.5px;
+
+}
+.main-menu a.active{
+    background-color: crimson;
+    color: white;
+ }
+.main-menu > ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.main-menu > ul > li{
+    display: inline-block;
+}
+.main-menu > ul > li > a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    font-family: Josefin Sans;
+}
+.main-menu > ul > li > a:hover{
+background-color: orange;
+color: black;
+}
+.dropdown > li > a:hover{
+    background-color: orange;
+    color: black;
+}
+
+
+
+.input-container {
+  display: -ms-flexbox; 
+  display: flex;
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+.icon {
+  padding: 10px;
+  background: lightgray;
+  color: black;
+  min-width: 5px;
+  text-align: center;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.input-field {
+  max-width: 100%;
+  padding: 10px;
+  outline: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+.tbl{
+    size: auto;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding: 1%;
+}
+.divtbl{
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+
+.inp-box{
+    width: 50%;
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+}
+
+
+.submit{
+    text-align: center;
+}
+
+.submit-btn:hover {
+    background-color: #555;
+    color: white;
+  }
+  .input-description{
+    max-width: 30%;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+}
+
+@media(max-width: 1240px){
+
+    .form-content{
+        max-width: 100%;
+        height: auto;
+        margin: auto;
+        padding-top: 25px;
+        align-items: center;
+    }
+    .formbody{
+        max-width: 100%;
+    }
+   
+    .form-content>form{
+        max-width: 100%;
+    }
+    .form-content>tr{
+        size:100%
+    }
+    .input-container {
+      max-width: 100%;
+      margin-bottom: 15px;
+    }
+    .icon {
+      padding: 10px;
+      background: lightgray;
+      color: black;
+      min-width: -1px;
+      text-align: center;
+      font-size: small;
+    }
+    
+    .input-field {
+      max-width: 100%;
+      padding: 10px;
+      outline: none;
+      border-top-right-radius: 1px;
+      border-bottom-right-radius: 1px;
+      border: 0.5px solid lightgray;
+    }
+
+    .tbl{
+        size: 25%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        padding: 1%;
+    }
+
+    .inp-box{
+        min-width: -1px;
+        padding: 0px;
+        margin: 0px;
+        height: auto;
+    }
+    
+    .input-description{
+        min-width: -1;
+        max-width: 100%;
+        height: auto;
+        font-family: sans-serif;
+        color: black;
+        font-weight: bold;
+        
+    }
+    .submit{
+        text-align: center;
+    }
+
+    .submit-btn:hover {
+        background-color: #555;
+        color: white;
+      }
+
+    .main-menu{
+        align-self: center;
+        background-color: teal;
+        letter-spacing: 1.5px;
+        
+    }
+    .main-menu a.active{
+        background-color: crimson;
+        color: white;
+     }
+    .main-menu > ul{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        text-align: center;
+        border: black solid 0.5px;
+    }
+    .main-menu > ul > li{
+        display: inline;
+    }
+    .dropdown{
+        display: none;
+    }
+
+    .main-menu > ul > li > a , .dropdown > li > a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        border: black solid 0.2px;
+        padding: 8px;
+        font-size: large;
+        font-family: sans-serif;
+    }
+    .main-menu > ul > li > a:hover{
+    background-color: orange;
+    color: black;
+    }
+
+}
+@media(max-width:379px){
+.tbl td{
+    min-width: -1px;
+    display: block;
+    align-items: center;
+}
+}

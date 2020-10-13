@@ -1,0 +1,111 @@
+body{
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+.mycontainer{
+    max-width: 1000px;
+    height: auto;
+    background-color: whitesmoke;
+    margin: auto;
+}
+.logodiv{
+    float: left;
+    padding: 5px;
+}
+.logodiv>a{
+    color: lightgrey;
+    text-decoration: none;
+    padding: 0px;
+}
+
+.navbar{
+    float: right;
+    padding: 30px;
+}
+
+.navbar > ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.navbar > ul > li{
+    display: inline-block;
+    
+}
+
+.navbar > ul > li > a:hover{
+    background-color: coral;
+    color: white;
+ }
+ .navbar a.active{
+    background-color: royalblue;
+    color: white;
+ }
+.navbar > ul > li > a {
+        color: royalblue;
+        text-decoration: none;
+        display: block;
+        padding: 15px;
+        font-size: small;
+        font-family: sans-serif;
+    }
+.clearfix{
+    clear: both;
+}
+.content{
+    background-color: lightgrey;
+    padding: 10px 25px;
+    text-align: center;
+}
+.content h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 300%;
+    padding: 0px;
+    margin: 50px 0px 0px 0px;
+}
+.btn1{
+    background-color: green;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+  }
+  .mainfooter{
+    color: black;
+    max-width: 950px;
+    height: auto;
+    padding: 25px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.footerbox{
+    max-width: 400px;
+    height: auto;
+    float: left;
+    padding: 25px;
+}
+.footerbox p{
+    text-align: justify;
+    font-family: sans-serif;
+}
+  .btn2{
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+  }
+  hr{
+      padding: 0px;
+      margin: 0px 0px 10px;
+  }
+  .btn1:hover {
+    opacity: 1;
+  }
+  .btn2:hover {
+    opacity: 1;
+  }
+
