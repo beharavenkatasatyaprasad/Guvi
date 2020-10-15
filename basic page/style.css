@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(220,220,230);
+    margin: 0 auto;
+}
+.container{
+    max-width: 100%;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+h1{
+    text-align: center;
+    max-width: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.5em;
+    letter-spacing: 0.5px;
+    color: blue;
+    text-transform: capitalize;
+}
+.formula{
+    text-align: center;
+    color: green;
+    font-style: italic;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 3px !important;
+    letter-spacing: 1px;
+    font-size: 125%;
+}
+image{
+    max-width: 50%;
+    height: auto;
+}
+img{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    max-width: 125px;
+    padding: 0px;
+}
+.des{
+    text-align: center;
+    padding: 0px;
+    margin: 1%;
+}
+.things-head{
+    padding-top: 12px;
+    padding: 0px !important;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+}
+section ul{
+    list-style: square;
+}
+ul,li{
+    font-size: 12px !important;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 0.5%;
+    margin: right;
+    font-size: small;
+    text-align: justify;
+    padding: 0px;
+}
+
+.quote{
+    margin-left: 2.5%;
+    padding: 0px;
+    font-size: large;
+}
+
+footer{
+    margin-left: 1%;
+    color: rgb(148,0,211);
+}
+footer a{
+    font-style: italic;
+}
