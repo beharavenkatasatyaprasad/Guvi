@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Application</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <script src="assets/youtube.js" defer></script>
+    <script src="public/bundle.js" defer></script>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12 mt-2 text-center" id="heading">
+                <h1>GUVI SONGS TV</h1>
+            </div>
+            <div class="col-md-8 mt-4">
+                <div class="col-12 bg-muted border border-white" id="tv-out-layer">
+                    <div class="col-sm-12 bg-dark" id="tv-inner-layer">
+                        <div id="ytplayer" style="width: 100%; height: 100%;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4 text-center mb-5">
+                <div class="col-6 col-md-12 bg-white rounded" id="remote-outer">
+                    <div class="row mb-3">
+                        <div class="col-12 text-center">
+                            <h3 class="h3 mt-2">Remote</h3>
+                        </div>
+                        <div class="col-6 mt-4 text-center" style="height: 100px;">
+                            <button type="button" id="button_play" class=" btn btn-outline-success" onclick="player.playVideo()">
+                                <i class="fa fa-play"></i>
+                                </button>
+                        </div>
+                        <div class="col-6 mt-4 text-center" style="height: 100px;">
+                            <button type="button" id="button_pause" class=" btn btn-outline-success" onclick="player.pauseVideo()">
+                                <i class="fa fa-pause"></i>
+                                </button>
+                        </div>
+                        <div class="col-6 mt-4 text-center" style="height: 100px;">
+                            <input type="hidden" id="p_value" value="https://www.youtube.com/embed/VuNIsY6JdUw">
+                            <button type="button" id="button_bw" class=" btn btn-outline-success">
+                                <i class="fa fa-backward"></i>
+                                </button>
+                        </div>
+                        <div class="col-6 mt-4 text-center" style="height: 100px;">
+                            <input type="hidden" id="n_value" value="https://www.youtube.com/embed/GkD20ajVxnY">
+                            <button type="button" id="button_fw" class=" btn btn-outline-success">
+                                <i class="fa fa-forward"></i>
+                                </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
